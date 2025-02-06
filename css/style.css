@@ -1,0 +1,78 @@
+body{
+    font-family: "DM Sans", serif;
+}
+
+.header-part{
+    background: #2F1893;
+    background-image: url("../image/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+}
+.header-part .navbar-nav{
+    gap: 44px;
+}
+.header-part .navbar-nav .nav-link{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+}
+.header-part .navbar-nav .nav-link:hover{
+    border-bottom: 2px solid #FFFFFF;
+}
+.header-part .header-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-part .header-info .start{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: -0.29px;
+    padding-top: 142px;
+    
+}
+.header-part .header-info .heading{
+    font-size: 72px;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: -1px;
+    padding: 27px 0;
+}
+.header-part .header-info .para{
+    width: 65%;
+    font-size: 22px;
+    font-weight: medium;
+    color: #FFFFFF;
+    line-height: 32px;
+    padding-bottom: 48px;
+}
+.header-part .header-info .button a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: medium;
+    color: #FFFFFF;
+    background: #482BE7;
+    padding: 17px 35px;
+    border-radius: 100px;
+    display: inline-block;
+}
+.header-part .header-info .span{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+.header-part .header-info .span span{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.header-part .header-info .span span:first-child{
+    background: #FFFFFF;
+}
