@@ -1,7 +1,16 @@
 body{
     font-family: "DM Sans", serif;
 }
-
+.para{
+   
+    font-size: 22px;
+    font-weight: medium;
+    color: #FFFFFF;
+    line-height: 32px;
+    padding-bottom: 48px;
+    text-align: center;
+}
+/* header-part start */
 .header-part{
     background: #2F1893;
     background-image: url("../image/header.png");
@@ -22,6 +31,7 @@ body{
 }
 .header-part .navbar-nav .nav-link:hover{
     border-bottom: 2px solid #FFFFFF;
+    cursor: pointer;
 }
 .header-part .header-info{
     display: flex;
@@ -46,11 +56,6 @@ body{
 }
 .header-part .header-info .para{
     width: 65%;
-    font-size: 22px;
-    font-weight: medium;
-    color: #FFFFFF;
-    line-height: 32px;
-    padding-bottom: 48px;
 }
 .header-part .header-info .button a{
     text-decoration: none;
@@ -65,7 +70,7 @@ body{
 .header-part .header-info .span{
     display: flex;
     gap: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 .header-part .header-info .span span{
     width: 10px;
@@ -76,3 +81,41 @@ body{
 .header-part .header-info .span span:first-child{
     background: #FFFFFF;
 }
+/* header-part end */
+/* powerful-part start */
+.powerful-part{
+    background: #2F1893;
+    background-image: url(../image/powerful.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 15px;
+    padding: 100px 0;
+}
+.powerful-part .info-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.powerful-part .info-part .p-heading{
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.powerful-part .info-part .p2-heading{
+    width: 75%;
+    font-size: 58px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 70px;
+    letter-spacing: -1px;
+    padding: 28px 0;
+}
+.powerful-part .info-part .para{
+    width: 84%;
+}
+/* powerful-part end */
