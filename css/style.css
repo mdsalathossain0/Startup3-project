@@ -10,6 +10,9 @@ body{
     padding-bottom: 48px;
     text-align: center;
 }
+.box{
+    display: flex;
+}
 /* header-part start */
 .header-part{
     background: #2F1893;
@@ -119,3 +122,45 @@ body{
     width: 84%;
 }
 /* powerful-part end */
+/* ctrate-part start */
+.create-part{
+    background: #2F1893;
+    background-image: url(../image/create.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    position: relative;
+}
+.create-part .image{
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.create-part .imageone{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.create-part .imagetwo {
+    width: 76%;
+    height: auto;
+    position: absolute;
+    top: 5%;
+}
+.create-part .imageone img{
+    width: 100%;
+    height: auto;
+}
+.create-part .imagetwo img{
+    width: 100%;
+    height: auto;
+}
+.create-part .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* ctrate-part end */
