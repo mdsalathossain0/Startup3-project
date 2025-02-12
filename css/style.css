@@ -10,6 +10,9 @@ body{
     padding-bottom: 48px;
     text-align: center;
 }
+a{
+    text-decoration: none;
+}
 .box{
     display: flex;
 }
@@ -158,17 +161,21 @@ body{
     width: 100%;
    height: 100%;
 }
-.create-part .info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .create-part .info h3{
     font-size: 42px;
     font-weight: bold;
     color: #FFFFFF;
     letter-spacing: -0.4px;
+}
+.create-part .info .para{
+    width: 80%;
+    font-size: 22px;
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 32px;
+    padding-bottom: 48px;
+    text-align: left !important;
 }
 .create-part .card{
     background: none;
@@ -190,4 +197,129 @@ body{
     color: #FFFFFF;
     letter-spacing: 0;
 }
+.create-part .span {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    top: -205px;
+    right: -30px;
+}
+.create-part .span span{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.create-part .span span:first-child{
+    
+    background: white;
+}
 /* ctrate-part end */
+/* digital-part start */
+
+.digital{
+    background: #2F1893;
+    background-image: url(../image/digital.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    padding: 100px 0;
+}
+.digital .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.digital .info h3{
+    width: 60%;
+    font-size: 42px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    padding-bottom: 32px;
+}
+.digital .info p{
+    width: 62%;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+.digital .form-part{
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 75%;
+    text-align: center;
+    
+}
+.digital .form-part .heading{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #ddd;
+}
+.digital .form-part .heading a{
+    color: #999;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    
+}
+.digital .form-part .heading a.active{
+    color: #1E0E62;
+
+}
+.digital .form-part .heading a.active:hover{
+    
+    background: #1E0E62;
+    color: white;
+    border-radius: 7px;
+    transition: .3s;
+}
+.digital .form-part .heading a:hover{
+    background: #1E0E62;
+    color: white;
+    border-radius: 7px;
+    transition: .3s;
+}
+
+.digital .form-part input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+}
+.digital .form-part .button1 a{
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #25DAC5;
+    display: inline-block;
+    padding: 10px 70px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+.digital .form-part .button2 a{
+
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #1DA1F2;
+    display: inline-block;
+    padding: 10px 75px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* digital-part end */
