@@ -317,9 +317,57 @@ a{
     border-radius: 30px;
     margin-bottom: 20px;
 }
-
-
-
-
-
 /* digital-part end */
+/* client-part start */
+.client{
+    background: #1E0E62;
+    padding: 100px 0;
+    margin-top: 10px;
+}
+.client h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+}
+.client .main-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.client .main-card .card-part{
+    width: 40%;
+    height: 230px;
+    border: 1px solid #b1aeae;
+    border-radius: 5px;
+    padding: 25px;
+    position: relative;
+}
+.client .main-card .card-part .cart-info{
+    display: flex;
+    gap: 30px;
+}
+.client .main-card .card-part .cart-info p{
+    width: 95%;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+.client .main-card .card-part .cart-info h6{
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 26px;
+    letter-spacing: 2px;
+    opacity: 30%;
+    position: absolute;
+    bottom: 20px;
+}
+/* client-part end */
