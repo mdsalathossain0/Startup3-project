@@ -371,3 +371,62 @@ a{
     bottom: 20px;
 }
 /* client-part end */
+/* setup-part start */
+.setup{
+    background: #2F1893;
+    background-image: url(../image/setup.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+.setup .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.setup .info h2{
+    width: 32%;
+    font-size: 58px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 70px;
+    letter-spacing: -1px;
+}
+.setup .info p{
+    width: 38%;
+    font-size: 22px;
+    font-weight: medium;
+    color: #FFFFFF;
+    line-height: 32px;
+    padding-top: 20px;
+    padding-bottom: 58px;
+}
+.setup .info .button{
+    display: flex;
+    column-gap: 30px;
+}
+.setup .info .button .btn1{
+    /* display: inline-block; */
+    color: #FFFFFF;
+    background: #EA3223;
+    padding: 26px 29px;
+    border-radius: 50%;
+}
+.setup .info .button .btn1 i{
+    font-size: 30px;
+    rotate: 90deg;
+}
+.setup .info .button .btn2{
+    color: #FFFFFF;
+    background: #25DAC5;
+    padding: 16px 50px;
+    border-radius: 90px;
+    font-size: 20px;
+}
+.setup .btn1:hover, .setup .btn2:hover{
+    opacity: 60%;
+}
+/* setup-part end */
