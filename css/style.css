@@ -379,6 +379,7 @@ a{
     background-position: center;
     background-size: cover;
     padding: 100px 0;
+    margin-top: 10px;
 }
 .setup .info{
     display: flex;
@@ -409,15 +410,16 @@ a{
     column-gap: 30px;
 }
 .setup .info .button .btn1{
-    /* display: inline-block; */
-    color: #FFFFFF;
-    background: #EA3223;
-    padding: 26px 29px;
-    border-radius: 50%;
+   border-radius: 50%;
+   background: #EA3223;
+   padding: 25px 28px;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
 }
 .setup .info .button .btn1 i{
     font-size: 30px;
-    rotate: 90deg;
+    color: #FFFFFF;
 }
 .setup .info .button .btn2{
     color: #FFFFFF;
@@ -425,8 +427,78 @@ a{
     padding: 16px 50px;
     border-radius: 90px;
     font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 .setup .btn1:hover, .setup .btn2:hover{
     opacity: 60%;
 }
 /* setup-part end */
+/* work-part start */
+.work {
+    background: #2F1893;
+    padding: 100px 0;
+}
+.work .head-part{
+    display: flex;
+    justify-content: space-between;
+}
+.work .head-part h3{
+    font-size: 42px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+}
+.work .head-part a{
+    font-size: 18px;
+    font-weight: medium;
+    color: #FFFFFF;
+    line-height: 26px;
+    border-radius: 100px;
+    border: 1px solid #ddd;
+    padding: 11px 24px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.work .head-part h3{
+    padding-left: 100px;
+}
+.work .head-part a{
+    margin-right: 100px;
+}
+.work .head-part a:hover{
+    opacity: 40%;
+}
+.work .card-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.work .card-part .card-info{
+    width: 40%;
+    text-align: center;
+}
+.work .card-part .card-info img{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.work .card-part .card-info h6{
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+.work .card-part .card-info p{
+    font-size: 22px;
+    font-weight: medium;
+    color: #FFFFFF;
+    line-height: 32px;
+}
+/* work-part end */
