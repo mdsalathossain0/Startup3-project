@@ -439,6 +439,7 @@ a{
 .work {
     background: #2F1893;
     padding: 100px 0;
+    margin-top: 10px;
 }
 .work .head-part{
     display: flex;
@@ -502,3 +503,55 @@ a{
     line-height: 32px;
 }
 /* work-part end */
+/* crew-part start */
+.crew{
+    background: #2F1893;
+    margin-top: 10px;
+    padding: 100px 0;
+}
+.crew h3{
+    font-size: 42px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+}
+.crew p{
+    font-size: 22px;
+    font-weight: medium;
+    color: #FFFFFF;
+    line-height: 32px;  
+    padding-top: 31px; 
+    padding-bottom: 70px;
+}
+.crew .info-part{
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+.crew .info-part .info{
+    width: 26%;
+
+}
+.crew .info-part .info h5{
+    font-size: 22px;
+    font-weight: medium;
+    color: #FFFFFF;
+    line-height: 32px; 
+    padding-top: 17px;
+    padding-bottom: 8px;
+}
+.crew .info-part .info h6{
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 26px; 
+    padding-bottom: 20px;
+}
+.crew .info-part .info .icon-part{
+    display: flex;
+    gap: 30px;
+}
+.crew .info-part .info .icon-part i{
+    color: #FFFFFF;
+}
+/* crew-part end */
