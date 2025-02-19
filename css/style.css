@@ -682,3 +682,160 @@ a{
 }
 
 /* Touch-part end */
+/* plan-part start */
+.plan-part{
+    background: #2F1893;
+    background-image: url(../image/plan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    margin-top: 10px;
+}
+.plan-part .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.plan-part .info h3{
+    font-size: 42px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+}
+.plan-part .info p{
+    font-size: 22px;
+    font-weight: medium;
+    color: #FFFFFF;
+    line-height: 32px;
+    width: 54%;
+    padding-top: 30px;
+    padding-bottom: 54px;
+}
+.plan-part .card-part{
+    display: flex;
+    justify-content: space-between;
+}
+.plan-part .card-part .card-info{
+    width: 31%;
+    border: 1px solid #a3a2a2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px 50px;
+    position: relative;
+}
+.plan-part .card-part .card-info h4{
+    font-size: 22px;
+    font-weight: medium;
+    color: #FFFFFF;
+    line-height: 32px;
+    padding-bottom: 22px;
+}
+.plan-part .card-part .card-info p{
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+.plan-part .card-part .card-info h6 i{
+    font-size: 16px;
+    font-weight: normal;
+}
+.plan-part .card-part .card-info h6{
+    font-size: 58px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 70px;
+    letter-spacing: -1px;
+    padding-bottom: 22px;
+}
+.plan-part .card-part .card-info .para1 p:nth-last-of-type(-n+6){
+    opacity: 70%;
+}
+.plan-part .card-part .card-info .para2 p:nth-last-of-type(-n+3){
+    opacity: 70%;
+}
+.plan-part .card-part .card-info p i{
+   position: absolute;
+   left: 25px;
+   font-size: 14px;
+   color: #25DAC5;
+}
+.plan-part .card-part .card-info .button a{
+    display: inline-block;
+   color: #FFFFFF;
+   background: transparent;
+   filter: blur(20%);
+   border: 1px solid #a3a2a2;
+   padding: 17px 60px;
+   border-radius: 100px;
+}
+.plan-part .card-part .card-info .button a:hover{
+   background: #E93A7D;
+}
+.plan-part .card-part .card-info .button a.active{
+   background: #E93A7D;
+}
+.plan-part .card-part .card-info .button a.active:hover{
+   background: transparent;
+}
+/* plan-part end */
+/* footer-part start */
+footer{
+    background: #2F1893;
+    padding: 45px 0;
+    margin-top: 10px;
+}
+footer h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: auto;
+    letter-spacing: -0.29px;
+}
+footer .first{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #807e7e;
+    padding-bottom: 15px;
+}
+footer .first ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    column-gap: 27px;
+}
+footer .first ul li{
+    font-size: 16px;
+    font-weight: 200;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+footer .two {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+footer .two ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    column-gap: 27px;
+}
+footer .two ul li{
+    font-size: 16px;
+    font-weight: 200;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+footer .two p{
+    font-size: 16px;
+    font-weight: 200;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+/* footer-part end */
