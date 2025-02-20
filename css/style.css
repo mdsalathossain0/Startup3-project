@@ -26,7 +26,7 @@ a{
     padding: 80px 0;
 }
 .header-part .navbar-nav{
-    gap: 44px;
+    column-gap: 44px;
 }
 .header-part .navbar-nav .nav-link{
     font-size: 18px;
@@ -137,7 +137,8 @@ a{
     position: relative;
 }
 .create-part .image{
-    height: 70%;
+    width: 350px;
+    height: 480px;
     position: absolute;
     left: 0;
 }
@@ -196,6 +197,7 @@ a{
     font-weight: 200;
     color: #FFFFFF;
     letter-spacing: 0;
+    width: 255px;
 }
 .create-part .span {
     display: flex;
@@ -256,8 +258,7 @@ a{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 75%;
-    text-align: center;
-    
+    text-align: center;  
 }
 .digital .form-part .heading{
     display: flex;
@@ -292,30 +293,34 @@ a{
 }
 
 .digital .form-part input{
-    width: 80%;
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ddd;
     border-radius: 30px;
 }
-.digital .form-part .button1 a{
+.digital .form-part .button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.digital .form-part .button  a{
+    width: 90%;
     font-size: 18px;
     color: #FFFFFF;
-    background: #25DAC5;
     display: inline-block;
-    padding: 10px 70px;
+    padding: 10px 10px;
     margin-top: 10px;
     border-radius: 30px;
 }
-.digital .form-part .button2 a{
-
-    font-size: 18px;
-    color: #FFFFFF;
-    background: #1DA1F2;
-    display: inline-block;
-    padding: 10px 75px;
-    border-radius: 30px;
-    margin-bottom: 20px;
+.digital .form-part .button .btn1{
+   background: #25DAC5;
+   margin-top: 15px;
+}
+.digital .form-part .button .btn2{
+   background: #482BE7;
 }
 /* digital-part end */
 /* client-part start */
@@ -341,8 +346,8 @@ a{
     gap: 30px;
 }
 .client .main-card .card-part{
-    width: 40%;
-    height: 230px;
+    width: 470px;
+    height: 237px;
     border: 1px solid #b1aeae;
     border-radius: 5px;
     padding: 25px;
@@ -353,7 +358,7 @@ a{
     gap: 30px;
 }
 .client .main-card .card-part .cart-info p{
-    width: 95%;
+    width: 280px;
     font-size: 18px;
     font-weight: 300;
     color: #FFFFFF;
@@ -591,7 +596,6 @@ a{
 }
 .touch .info h6{
     display: flex;
-    align-items: center;
     font-size: 16px;
     color: #FFFFFF;
     line-height: 26px;
@@ -720,7 +724,7 @@ a{
     justify-content: space-between;
 }
 .plan-part .card-part .card-info{
-    width: 31%;
+    width: 350px;
     border: 1px solid #a3a2a2;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

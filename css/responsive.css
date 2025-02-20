@@ -1,0 +1,737 @@
+@media(min-width:320px) and (max-width:575.99px){
+    /* nav-part start */
+    .header-part{
+        padding: 30px 0 !important;
+    }
+    .para{
+        font-size: 20px !important;
+    }
+    .header-part .navbar-toggler{
+        width: 16%;
+    }
+    .header-part .navbar-toggler span{
+        width: 80%;
+    }
+    .header-part .navbar-nav{
+        background: #9355f7;
+        margin-top: 20px;
+        display: grid;
+        row-gap: 5px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .header-part .navbar-nav .nav-link{
+        font-size: 16px;
+    }
+    .header-part .navbar-nav .nav-link:hover{
+       pointer-events: none;
+    }
+    .header-part .header-info .start{
+        font-size: 22px !important;
+        padding-top: 50px !important;
+    }
+    .header-part .header-info .heading{
+        font-size: 58px !important;
+        text-align: center;
+    }
+    /* nav-part end */
+    /* powerful-part start */
+    .powerful-part{
+        padding: 50px 0 !important;
+    }
+    .powerful-part .info-part .p2-heading{
+        font-size: 48px !important;
+    }
+    /* powerful-part end */
+    /* create-part start */
+    .create-part{
+        padding: 50px 0 !important;
+    }
+    .create-part .info h3{
+        padding-top: 510px !important;
+        font-size: 36px !important;
+    }
+    .create-part .info p{
+        font-size: 16px !important;
+    }
+    .create-part .image{
+        width: 290px !important;
+    }
+    .create-part .card{
+        width: 275px;
+    }
+    .create-part .box{
+        flex-direction: column !important;
+    }
+    .create-part .span {
+        right: 0 !important;
+    }
+    /* create-part end */
+    /* digital-part start */
+    .digital{
+        padding: 50px 0 !important;
+    }
+    .digital .info h3{
+        font-size: 36px !important;
+        width: 255px !important;
+        margin: 0 auto !important;
+    }
+    .digital .info p{
+        width: 255px !important;
+        margin: 0 auto !important;
+        padding-bottom: 20px !important;
+    }
+    .digital .form-part{
+       width: 90% !important;
+       margin: 0 auto;
+    }
+    /* digital-part end */
+    /* client-part start */
+    .client{
+        padding: 50px 0 !important;
+    }
+    .client h2{
+        padding-left: 0px !important;
+    }
+    .client .main-card .card-part{
+        width: 300px !important;
+        height: 320px !important;
+    }
+    .client .main-card .card-part p{
+        width: 170px !important;
+        font-size: 16px !important;
+    }
+    /* client-part end */
+    /* setup-part start */
+    .setup{
+        padding: 50px 0 !important;
+    }
+    .setup .info h2{
+        width: 280px !important;
+        font-size: 48px !important;
+    }
+    .setup .info p{
+        width: 280px !important;
+        font-size: 20px !important;
+    }
+    .setup .info .button{
+        column-gap: 20px !important;
+    }
+    .setup .info .button .btn1{
+        padding: 16px 20px !important;
+    }
+    .setup .info .button .btn1 i{
+        font-size: 22px !important;
+    }
+    /* setup-part end */
+    /* work-part start */
+    .work{
+        padding: 50px 0 !important;
+    }
+    .work .head-part{
+        display: flex;
+        justify-content: space-between !important;
+    }
+    .work .head-part h3{
+        padding-left: 0px !important;
+        font-size: 32px !important;
+    }
+    .work .head-part a{
+        font-size: 14px !important;
+        margin-right: 0  !important;
+        padding: 7px 10px !important;
+    }
+    .work .card-part{
+        gap: 20px !important;
+    }
+    .work .card-part .card-info{
+        width: 290px !important;
+    }
+    /* work-part end */
+    /* crew-part start */
+    .crew{
+        padding: 50px 0 !important;
+    }
+    .crew h3{
+        font-size: 36px !important;
+    }
+    .crew p{
+        font-size: 20px !important;
+    }
+    .crew .info-part{
+        gap: 110px !important;
+    }
+    .crew .info-part .info h5{
+        font-size: 18px !important;
+    }
+    .crew .info-part .info h6{
+        font-size: 14px !important;
+    }
+    /* crew-part end */
+    /* touch-part start */
+    .touch{
+        padding: 50px 0 !important;
+    }
+    .touch .info h3{
+        font-size: 36px !important;
+    }
+    .touch .info p{
+        font-size: 19px !important;
+    }
+    .touch .info h6{
+        font-size: 16px !important;
+        width: 200px !important;
+        margin: 0 auto !important;
+    }
+    .touch form{
+        width: 290px !important;
+        margin: 0 auto !important;
+    }
+    .touch form .check{
+        flex-direction: column !important;
+    }
+    /* touch-part end */
+    /* plan-part start */
+    .plan-part{
+        padding: 50px 0 !important;
+    }
+    .plan-part .info h3{
+        font-size: 36px !important;
+    }
+    .plan-part .info p{
+        font-size: 20px !important;
+        width: 220px !important;
+        margin: 0 auto !important;
+    }
+    .plan-part .card-part{
+        flex-direction: column !important;
+        row-gap: 25px;
+    }
+    .plan-part .card-part .card-info{
+        width: 300px !important;
+    }
+    .plan-part .card-part .card-info .button a{
+        padding: 15px 50px !important;
+    }
+    .plan-part .card-part .card-info .button a:hover{
+        background: transparent !important;
+    }
+    /* plan-part end */
+    /* footer-part start */
+    footer{
+        padding: 35px 0 !important;
+    }
+    footer .first{
+        flex-direction: column !important;
+        row-gap: 20px !important;
+    }
+    footer .first ul{
+        flex-direction: column !important;
+        row-gap: 10px !important;
+    }
+    footer .two{
+        flex-direction: column !important;
+        row-gap: 20px !important;
+    }
+    footer .two ul{
+        flex-direction: column !important;
+        row-gap: 10px !important;
+    }
+    /* footer-part end */
+}
+@media(min-width:576px) and (max-width:767.99px){
+    /* nav-part start */
+    .header-part{
+        padding: 30px 0 !important;
+    }
+    .para{
+        font-size: 20px !important;
+    }
+    .header-part .navbar-toggler{
+        width: 10%;
+    }
+    .header-part .navbar-toggler span{
+        width: 80%;
+    }
+    .header-part .navbar-nav{
+        background: #9355f7;
+        margin-top: 20px;
+        display: grid;
+        row-gap: 5px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .header-part .navbar-nav .nav-link{
+        font-size: 16px;
+    }
+    .header-part .navbar-nav .nav-link:hover{
+       pointer-events: none;
+    }
+    .header-part .header-info .start{
+        font-size: 22px !important;
+        padding-top: 50px !important;
+    }
+    .header-part .header-info .heading{
+        font-size: 58px !important;
+        text-align: center;
+    }
+    /* nav-part end */
+    /* powerful-part start */
+    .powerful-part{
+        padding: 50px 0 !important;
+    }
+    .powerful-part .info-part .p2-heading{
+        font-size: 48px !important;
+    }
+    /* powerful-part end */
+    /* create-part start */
+    .create-part{
+        padding: 50px 0 !important;
+    }
+    .create-part .info h3{
+        padding-top: 510px !important;
+        font-size: 36px !important;
+    }
+    .create-part .info p{
+        font-size: 16px !important;
+    }
+    .create-part .image{
+        width: 290px !important;
+    }
+    .create-part .card{
+        width: 375px;
+    }
+    .create-part .box{
+        flex-direction: column !important;
+    }
+    .create-part .span {
+        right: 0 !important;
+    }
+    /* create-part end */
+    /* digital-part start */
+    .digital{
+        padding: 50px 0 !important;
+    }
+    .digital .info h3{
+        font-size: 36px !important;
+        width: 455px !important;
+        margin: 0 auto !important;
+    }
+    .digital .info p{
+        width: 455px !important;
+        margin: 0 auto !important;
+        padding-bottom: 20px !important;
+    }
+    .digital .form-part{
+       width: 90% !important;
+       margin: 0 auto;
+    }
+    /* digital-part end */
+    /* client-part start */
+    .client{
+        padding: 50px 0 !important;
+    }
+    .client h2{
+        padding-left: 0px !important;
+    }
+    .client .main-card .card-part{
+        width: 500px !important;
+        height: 220px !important;
+    }
+    .client .main-card .card-part p{
+        width: 370px !important;
+        font-size: 16px !important;
+    }
+    /* client-part end */
+    /* setup-part start */
+    .setup{
+        padding: 50px 0 !important;
+    }
+    .setup .info h2{
+        width: 480px !important;
+        font-size: 48px !important;
+    }
+    .setup .info p{
+        width: 480px !important;
+        font-size: 20px !important;
+    }
+    .setup .info .button{
+        column-gap: 20px !important;
+    }
+    .setup .info .button .btn1{
+        padding: 16px 20px !important;
+    }
+    .setup .info .button .btn1 i{
+        font-size: 22px !important;
+    }
+    /* setup-part end */
+    /* work-part start */
+    .work{
+        padding: 50px 0 !important;
+    }
+    .work .head-part{
+        display: flex;
+        justify-content: space-between !important;
+    }
+    .work .head-part h3{
+        padding-left: 0px !important;
+        font-size: 32px !important;
+    }
+    .work .head-part a{
+        font-size: 14px !important;
+        margin-right: 0  !important;
+        padding: 7px 10px !important;
+    }
+    .work .card-part{
+        gap: 20px !important;
+    }
+    .work .card-part .card-info{
+        width: 500px !important;
+    }
+    /* work-part end */
+    /* crew-part start */
+    .crew{
+        padding: 50px 0 !important;
+    }
+    .crew h3{
+        font-size: 36px !important;
+    }
+    .crew p{
+        font-size: 20px !important;
+    }
+    .crew .info-part{
+        gap: 110px !important;
+    }
+    .crew .info-part .info h5{
+        font-size: 18px !important;
+    }
+    .crew .info-part .info h6{
+        font-size: 14px !important;
+    }
+    /* crew-part end */
+    /* touch-part start */
+    .touch{
+        padding: 50px 0 !important;
+    }
+    .touch .info h3{
+        font-size: 36px !important;
+    }
+    .touch .info p{
+        font-size: 19px !important;
+    }
+    .touch .info h6{
+        font-size: 16px !important;
+        width: 200px !important;
+        margin: 0 auto !important;
+    }
+    .touch form{
+        width: 480px !important;
+        margin: 0 auto !important;
+    }
+    .touch form .check{
+        flex-direction: column !important;
+    }
+    /* touch-part end */
+    /* plan-part start */
+    .plan-part{
+        padding: 50px 0 !important;
+    }
+    .plan-part .info h3{
+        font-size: 36px !important;
+    }
+    .plan-part .info p{
+        font-size: 20px !important;
+        width: 220px !important;
+        margin: 0 auto !important;
+    }
+    .plan-part .card-part{
+        flex-direction: column !important;
+        row-gap: 25px;
+    }
+    .plan-part .card-part .card-info{
+        width: 350px !important;
+        margin: 0 auto !important;
+    }
+    .plan-part .card-part .card-info .button a{
+        padding: 15px 50px !important;
+    }
+    .plan-part .card-part .card-info .button a:hover{
+        background: transparent !important;
+    }
+    /* plan-part end */
+    /* footer-part start */
+    footer{
+        padding: 35px 0 !important;
+    }
+    footer .first{
+        flex-direction: column !important;
+        row-gap: 20px !important;
+    }
+    footer .first ul{
+        flex-direction: column !important;
+        row-gap: 10px !important;
+    }
+    footer .two{
+        flex-direction: column !important;
+        row-gap: 20px !important;
+    }
+    footer .two ul{
+        flex-direction: column !important;
+        row-gap: 10px !important;
+    }
+    /* footer-part end */
+}
+@media(min-width:767px) and (max-width:991.99px){
+    /* nav-part start */
+    .header-part{
+        padding: 30px 0 !important;
+    }
+    .para{
+        font-size: 20px !important;
+    }
+    .header-part .navbar-toggler{
+        width: 10%;
+    }
+    .header-part .navbar-toggler span{
+        width: 80%;
+    }
+    .header-part .navbar-nav{
+        background: #9355f7;
+        margin-top: 20px;
+        display: grid;
+        row-gap: 5px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .header-part .navbar-nav .nav-link{
+        font-size: 16px;
+    }
+    .header-part .navbar-nav .nav-link:hover{
+       pointer-events: none;
+    }
+    .header-part .header-info .start{
+        font-size: 22px !important;
+        padding-top: 50px !important;
+    }
+    .header-part .header-info .heading{
+        font-size: 62px !important;
+        text-align: center;
+    }
+    .header-part .header-info .para{
+        width: 650px !important;
+    }
+    /* nav-part end */
+    /* powerful-part start */
+    .powerful-part{
+        padding: 50px 0 !important;
+    }
+    .powerful-part .info-part .p2-heading{
+        font-size: 48px !important;
+    }
+    .powerful-part .p2-heading{
+        width: 650px !important;
+    }
+    .powerful-part .para{
+        width: 650px !important;
+    }
+    /* powerful-part end */
+    /* create-part start */
+    .create-part{
+        padding: 50px 0 !important;
+    }
+    .create-part .info h3{
+        padding-top: 510px !important;
+        font-size: 40px !important;
+    }
+    .create-part .info p{
+        font-size: 16px !important;
+    }
+    .create-part .image{
+        width: 590px !important;
+    }
+    .create-part .card{
+        width: 450px !important;
+    }
+    .create-part .card .card-text{
+        width: 400px !important;
+    }
+    .create-part .span {
+        right: 0 !important;
+    }
+    /* create-part end */
+    /* digital-part start */
+    .digital{
+        padding: 50px 0 !important;
+    }
+    .digital .info h3{
+        font-size: 36px !important;
+        width: 555px !important;
+        margin: 0 auto !important;
+    }
+    .digital .info p{
+        width: 555px !important;
+        margin: 0 auto !important;
+        padding-bottom: 20px !important;
+    }
+    .digital .form-part{
+       width: 90% !important;
+       margin: 0 auto;
+    }
+    /* digital-part end */
+    /* client-part start */
+    .client{
+        padding: 50px 0 !important;
+    }
+    .client h2{
+        padding-left: 0px !important;
+    }
+    .client .main-card .card-part{
+        width: 600px !important;
+        height: 220px !important;
+    }
+    .client .main-card .card-part p{
+        width: 370px !important;
+        font-size: 16px !important;
+    }
+    /* client-part end */
+    /* setup-part start */
+    .setup{
+        padding: 50px 0 !important;
+    }
+    .setup .info h2{
+        width: 650px !important;
+        font-size: 48px !important;
+    }
+    .setup .info p{
+        width: 640px !important;
+        font-size: 20px !important;
+    }
+    .setup .info .button{
+        column-gap: 20px !important;
+    }
+    .setup .info .button .btn1{
+        padding: 16px 20px !important;
+    }
+    .setup .info .button .btn1 i{
+        font-size: 22px !important;
+    }
+    /* setup-part end */
+    /* work-part start */
+    .work{
+        padding: 50px 0 !important;
+    }
+    .work .head-part{
+        display: flex;
+        justify-content: space-between !important;
+    }
+    .work .head-part h3{
+        padding-left: 0px !important;
+        font-size: 32px !important;
+    }
+    .work .head-part a{
+        font-size: 14px !important;
+        margin-right: 0  !important;
+        padding: 7px 10px !important;
+    }
+    .work .card-part{
+        gap: 20px !important;
+    }
+    .work .card-part .card-info{
+        width: 600px !important;
+    }
+    /* work-part end */
+    /* crew-part start */
+    .crew{
+        padding: 50px 0 !important;
+    }
+    .crew h3{
+        font-size: 36px !important;
+    }
+    .crew p{
+        font-size: 20px !important;
+    }
+    .crew .info-part{
+        gap: 110px !important;
+    }
+    .crew .info-part .info h5{
+        font-size: 18px !important;
+    }
+    .crew .info-part .info h6{
+        font-size: 14px !important;
+    }
+    /* crew-part end */
+    /* touch-part start */
+    .touch{
+        padding: 50px 0 !important;
+    }
+    .touch .info h3{
+        font-size: 36px !important;
+    }
+    .touch .info p{
+        font-size: 19px !important;
+    }
+    .touch .info h6{
+        font-size: 16px !important;
+        width: 300px !important;
+        margin: 0 auto !important;
+    }
+    .touch form{
+        width: 480px !important;
+        margin: 0 auto !important;
+    }
+    .touch form .check{
+        flex-direction: column !important;
+    }
+    /* touch-part end */
+    /* plan-part start */
+    .plan-part{
+        padding: 50px 0 !important;
+    }
+    .plan-part .info h3{
+        font-size: 36px !important;
+    }
+    .plan-part .info p{
+        font-size: 20px !important;
+        width: 420px !important;
+        margin: 0 auto !important;
+    }
+    .plan-part .card-part{
+        flex-direction: row !important;
+    
+        gap: 20px !important;
+    }
+    .plan-part .card-part .card-info{
+        width: 250px !important;
+    }
+    .plan-part .container{
+        overflow-x: hidden !important;
+    }
+    .plan-part .card-part .card-info .button a{
+        padding: 10px 50px !important;
+    }
+    .plan-part .card-part .card-info .button a:hover{
+        background: transparent !important;
+    }
+    /* plan-part end */
+    /* footer-part start */
+    footer{
+        padding: 35px 0 !important;
+    }
+    footer .first{
+        flex-direction: column !important;
+        row-gap: 20px !important;
+    }
+    footer .first ul{
+        flex-direction: column !important;
+        row-gap: 10px !important;
+    }
+    footer .two{
+        flex-direction: column !important;
+        row-gap: 20px !important;
+    }
+    footer .two ul{
+        flex-direction: column !important;
+        row-gap: 10px !important;
+    }
+    /* footer-part end */
+}
